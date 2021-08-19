@@ -57,20 +57,16 @@ Gem::Specification.new do |s|
     "lib/webrick/version.rb",
     "webrick.gemspec",
   ]
-  s.required_ruby_version = ">= 2.3.0"
+  s.required_ruby_version = ">= 2.4.0"
 
   s.authors = ["TAKAHASHI Masayoshi", "GOTOU YUUZOU", "Eric Wong"]
   s.email = [nil, nil, 'normal@ruby-lang.org']
-  s.homepage = "https://www.ruby-lang.org"
-  s.license = "BSD-2-Clause"
+  s.homepage = "https://github.com/ruby/webrick"
+  s.licenses = ["Ruby", "BSD-2-Clause"]
 
   if s.respond_to?(:metadata=)
     s.metadata = {
-      "bug_tracker_uri" => "https://bugs.ruby-lang.org/projects/ruby-trunk/issues",
-      "homepage_uri" => "https://www.ruby-lang.org",
-      "source_code_uri" => "https://git.ruby-lang.org/ruby.git/"
+      "bug_tracker_uri" => "https://github.com/ruby/webrick/issues",
     }
   end
-
-  s.add_development_dependency "rake"
 end
